@@ -3,18 +3,11 @@ html {
   background-color:#dbd6d0;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
 body {
   margin: 0;
   font-family: sans-serif;
-}
-
-nav {
-  display: inline;
-  margin: auto;
+  background-color: #5a5750;
+  padding: .25em 0;
 }
 
 ul {
@@ -27,6 +20,8 @@ h1 {
   font-family: "Bevan", cursive;
   text-align: center;
   color: #fff;
+  display: block;
+  margin: .14em 0 0;
 }
 
 .box {
@@ -38,20 +33,28 @@ h1 {
 
 .box li {
   display: inline-block;
-  margin: .1em;
-  padding: 1em;
+  margin: .17em 0;
+  padding: .75em;
   background-color: #733737;
-  border-radius: 5px;
+  border-radius: 4.7px;
   max-width: 20em;
 }
 
+.box li:hover {
+  background-color: #ff332a;
+}
+
+header {
+display: block;
+margin: 0;
+padding: .8em;
+background-color: #79766f;
+}
+
 a {
-  font-family: sans-serif;
-  display: inline-block;
-  padding: .5em .75em;
-  background-color: #ccc;
-  border-radius: 4px;
-  color: #000;
   text-decoration: none;
-  float: left;
+  color: white;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
 }
